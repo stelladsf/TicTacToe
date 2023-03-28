@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TicTacToe</title>
+    <!DOCTYPE html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Verlinkung; css-->
+    <link rel="stylesheet" href="TicTacToe.css">
+    <!--Verlinkung; js-->
+    <script src="TicTacToe.js" defer="true"></script>
+</head>
+
+<body>
+    <h1 class="game-title">Tic Tac Toe</h1>
+    <marquee id= "xoxo" direction="right">click me!</marquee>
+
+    <!--Anfang; Spielfeld-->
+    <div class="tic-tac-toe" aria-describedby="hint">
+        <p id="hint">to start the game, click inside the fields. <br><span id="currentPlayer">X begins </span></p>
+        <div id="gameboard">
+            <button>A1</button>
+            <button>A2</button>
+            <button>A3</button>
+
+            <button>B1</button>
+            <button>B2</button>
+            <button>B3</button>
+
+            <button>C1</button>
+            <button>C2</button>
+            <button>C3</button>
+        </div>
+    </div>
+    <div id="legende">
+        <table class="center">
+            <tr>
+                <td>PLAYER <h3>1</h3>
+                </td>
+                <td>
+                    <h4>-</h4>
+                </td>
+                <td>PLAYER <h3>2</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src=x.png alt="X"></td>
+                <td></td>
+                <td><img src=o.png alt="O"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--game status-->
+    <h2 class="game-status"></h2>
+
+    <!--restart button-->
+    <button id="game-restart">Restart Game</button>
+    <p><a href="https://msha.ke/stella.dsf">° by stella.dsf °</a></p>
+
+</body>
+
+</html>
