@@ -43,8 +43,68 @@ xoxo.addEventListener('click', function () {
     } else if (xoxo.textContent === '💟'){
         xoxo.textContent = '💌';
         xoxo.direction = 'right';
+    } else if (xoxo.textContent === '💌'){
+        xoxo.textContent = '💞';
+        xoxo.direction = 'up';
+    } else if (xoxo.textContent === '💞'){
+        xoxo.textContent = '💚';
+        xoxo.direction = 'right';
+    } else if (xoxo.textContent === '💚'){
+        xoxo.textContent = '💥';
+        xoxo.direction = 'left';
+    } else if (xoxo.textContent === '💥'){
+        xoxo.textContent = '💫';
+        xoxo.direction = 'left';
+    } else if (xoxo.textContent === '💫'){
+        xoxo.textContent = '💤';
+        xoxo.direction = 'right';
+    } else if (xoxo.textContent === '💤'){
+        xoxo.textContent = '💅';
+        xoxo.direction = 'up';
+    } else if (xoxo.textContent === '💅'){
+        xoxo.textContent = '🧠';
+        xoxo.direction = 'down';
+    } else if (xoxo.textContent === '🧠'){
+        xoxo.textContent = '👩‍💻';
+        xoxo.direction = 'left';
+    } else if (xoxo.textContent === '👩‍💻'){
+        xoxo.direction = 'up';
+        xoxo.textContent = '🤸';
+    } else if (xoxo.textContent === '🤸'){
+        xoxo.textContent = '👥';
+        xoxo.direction = 'right';
+    } else if (xoxo.textContent === '👥'){
+        xoxo.textContent = '🐷';
+        xoxo.direction = 'left';
+    } else if (xoxo.textContent === '🐷'){
+        xoxo.textContent = '🐣';
+        xoxo.direction = 'right';
+    } else if (xoxo.textContent === '🐣'){
+        xoxo.textContent = '🦚';
+        xoxo.direction = 'up';
+    } else if (xoxo.textContent === '🦚'){
+        xoxo.textContent = '🐸';
+        xoxo.direction = 'down';
+    } else if (xoxo.textContent === '🐸'){
+        xoxo.textContent = '🐞';
+        xoxo.direction = 'left';
+    } else if (xoxo.textContent === '🐞'){
+        xoxo.textContent = '🌸';
+        xoxo.direction = 'left';
+    } else if (xoxo.textContent === '🌸'){
+        xoxo.textContent = '🍩';
+        xoxo.direction = 'right';
+    } else if (xoxo.textContent === '🍩'){
+        xoxo.textContent = '🌺';
+        xoxo.direction = 'up';
+    } else if (xoxo.textContent === '🌺'){
+        xoxo.textContent = '🧃';
+        xoxo.direction = 'down';
+    } else if (xoxo.textContent === '🧃'){
+        xoxo.textContent = '🗽';
+        xoxo.direction = 'down';
     } else {
         xoxo.textContent = '📲' ;
-        xoxo.direction = 'down';
+        xoxo.direction = 'right';
     }
 });
