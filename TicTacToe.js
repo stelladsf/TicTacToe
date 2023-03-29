@@ -48,4 +48,3 @@ xoxo.addEventListener('click', function () {
         xoxo.direction = 'down';
     }
 });
-
